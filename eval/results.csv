@@ -1,21 +1,21 @@
 name,id,sparsity
-splade raw query,res_tc21_raw_trimmed
-splade gold query,res_tc21_target_trimmed
+splade raw query,res_tc21_raw_trimmed,63.84
+splade gold query,res_tc21_target_trimmed,62.16
 cosplade all answer,4732_21,86.18
 cosplade all answer short,5121_21,80.66
 cosplade all answer long,4741_21,76.39
 cosplade last answer,2834_21,61.83
 cosplade last answer short,5027_21,53.19
 cosplade last answer long,8941_21,58.34
-flat context,1580_21
-mse loss,1507_21
-cosine loss,5424_21
-t5mono raw query,res_rr21_8268_raw_dedup
-t5mono gold query,res_rr21_8268_golden_dedup
-t5mono cqr,res_rr21_8268_rewrite_dedup
-cosplade no context 5 keywords,res_rrt21_kwqft_mm4270_trimmed
-cosplade no context 10 keywords,res_rrt21_kwft_dedup
-cosplade no context 20 keywords,res_rrt21_kwqft_mm8562_trimmed
-cosplade yes context 5 keywords,res_rrt21_kwqft_mm346_trimmed
-cosplade yes context 10 keywords,res_rrt21_kwqft_mm4261_4_trimmed
-cosplade yes context 20 keywords,res_rrt21_kwqft_mm7632_trimmed
+flat context,1580_21,_
+mse loss,1507_21,_
+cosine loss,5424_21,_
+t5mono raw query,res_rr21_8268_raw_dedup,_
+t5mono gold query,res_rr21_8268_golden_dedup,_
+t5mono cqr,res_rr21_8268_rewrite_dedup,_
+cosplade no context 5 keywords,res_rrt21_kwqft_mm4270_trimmed,_
+cosplade no context 10 keywords,res_rrt21_kwft_dedup,_
+cosplade no context 20 keywords,res_rrt21_kwqft_mm8562_trimmed,_
+cosplade yes context 5 keywords,res_rrt21_kwqft_mm346_trimmed,_
+cosplade yes context 10 keywords,res_rrt21_kwqft_mm4261_4_trimmed,_
+cosplade yes context 20 keywords,res_rrt21_kwqft_mm7632_trimmed,_
