@@ -14,24 +14,25 @@ We only describe folders containing code for CoSPLADE. Other folders contain cod
 * `/topics`: Python scripts to pre-process questions in topics
 
 * `/cvst`: CoSPLADE
-   * /cvst/cn: pre-processing for CANARD queries
-   * /cvst/tc: pre-processing for TREC CAsT queries
-   * /cvst/extraction2: training first stage ranker (Python source code with filenames containing "sumti")
-   * /cvst/emb: saved query embeddings of first stage
-   * /cvst/visualize_ti_vectors.py: interpret embeddings
-   * /cvst/convers_retrieve.sh: script to run first stage ranking
-   * /cvst/rfml_keyword: extract keywords from first stage ranker for the re-ranker
-   * /cvst/rerank: training re-ranker
-   * /cvst/submission: generate submission files for TREC CAsT
+   * `/cvst/cn`: pre-processing for CANARD queries
+   * `/cvst/tc`: pre-processing for TREC CAsT queries
+   * `/cvst/extraction2`: training first stage ranker (Python source code with filenames containing "sumti")
+   * `/cvst/emb`: saved query embeddings of first stage
+   * `/cvst/visualize_ti_vectors.py`: interpret embeddings
+   * `/cvst/convers_retrieve.sh`: script to run first stage ranking
+   * `/cvst/rfml_keyword`: extract keywords from first stage ranker for the re-ranker
+   * `/cvst/rerank`: training re-ranker
+   * `/cvst/submission`: generate submission files for TREC CAsT
 
 * `/eval`: Python scripts to post-process and evaluate retrieved results
-   * /eval/runs: ranked list of documents for each query
-   * /eval/res: evaluation metrics
+   * `/eval/runs`: ranked list of documents for each query
+   * `/eval/res`: evaluation metrics
 
-* /qrel: qrel files
-
+* `/qrel`: qrel files
 
 # cite
+
+Please cite our work as:
 
 ```
 @inproceedings{DBLP:conf/ecir/HaiGFNPS23,
